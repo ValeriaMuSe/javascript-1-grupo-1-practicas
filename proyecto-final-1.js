@@ -13,9 +13,9 @@ console.log(ejercicio1(23));
 // Ejercicio 2
 function ejercicio2() {
   console.log("Ejercicio 2")
-  let a = 1
-  let b = 2
-  let c = -8
+  let a = parseInt(prompt("Digite el valor de a"));
+  let b = parseInt(prompt("Digite el valor de b"));
+  let c = parseInt(prompt("Digite el valor de c"));
   
   function x1 (a, b, c){
   return (-b + Math.sqrt(b**2 - 4*a*c)) / (2 * a);
