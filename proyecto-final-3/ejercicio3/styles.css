@@ -1,0 +1,27 @@
+.container {
+  font-family: sans-serif;
+  margin-left: 10px;
+}
+
+.numbers {
+  margin-top: 15px;
+}
+
+button {
+  margin-top: 15px;
+  background-color: #006dd7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 11px;
+}
+
+button:hover {
+  background-color: #0055a8;
+}
+
+#result {
+  margin-top: 15px;
+  width: 100px;
+  height: 40px;
+}
